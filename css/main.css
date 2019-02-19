@@ -1,0 +1,10 @@
+.carousel-item > div {
+  dsipaly: none;
+}
+
+#arsinoitherium-control:checked ~ .carousel-inner #arsinoitherium,
+#elasmosterium-control:checked ~ .carousel-inner #elasmosterium,
+#glyptodon-control:checked ~ .carousel-inner #glyptodon,
+#megatherium-control:checked ~ .carousel-inner #megatherium {
+  display: block;
+}
